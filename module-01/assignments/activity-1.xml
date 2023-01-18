@@ -1,0 +1,163 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <human>
+ <human1>
+    <name>
+        <firstName>Ansh</firstName>
+        <lastName>Bhardwaj</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>listening podcast</hobby1>
+        <hobby2>reading books </hobby2>
+    </hobbies>
+
+    <interests>
+        <interest>Be a successful software developer</interest>
+    </interests>
+    <skills>
+        <skill1>Java</skill1>
+        <skill2>SQL</skill2>
+    </skills>
+  </human1>​
+
+    <human2>
+    <name>
+        <firstName>Rhit </firstName>
+        <lastName>Bhardwaj</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>traveling</hobby1>
+        <hobby2>cricket</hobby2>
+    </hobbies>
+
+    <<skills>
+        <skill1>Communication</skill1>
+        <skill2>Leadership</skill2>
+    </skills>
+
+  </human2>
+
+
+     <human3>
+    <name>
+        <firstName>Jazz </firstName>
+        <lastName>Singh</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>Dancing</hobby1>
+    </hobbies>
+
+    <<skills>
+        <skill1>Hard worker</skill1>
+    </skills>
+  </human3>
+  
+     <human4>
+    <name>
+        <firstName>Love </firstName>
+        <lastName>Preet</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>listening songs</hobby1>
+    </hobbies>
+
+    <<skills>
+        <skill1>Confidence</skill1>
+    </skills>
+  </human4>
+  
+     <human5>
+    <name>
+        <firstName>Jatin</firstName>
+        <lastName>Yadav</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>basketball</hobby1>
+    </hobbies>
+
+    <<skills>
+        <skill1>Motivated</skill1>
+    </skills>
+  </human5>
+
+     <human6>
+    <name>
+        <firstName>Kamal </firstName>
+        <lastName>Saiani</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>video  games</hobby1>
+    </hobbies>
+
+    <<skills>
+        <skill1>Team-work</skill1>
+    </skills>
+  </human6>
+
+     <human7>
+    <name>
+        <firstName>Parul</firstName>
+        <lastName>Khanna</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>Reading books</hobby1>
+    </hobbies>
+
+    <<skills>
+        <skill1>Reliability</skill1>
+    </skills>
+  </human7>
+
+  ​   <human8>
+    <name>
+        <firstName>Bala </firstName>
+        <lastName>Bhardwaj</lastName>
+    </name>
+
+    <hobbies>
+        <hobby2>cricket</hobby2>
+    </hobbies>
+
+    <<skills>
+        <skill1>Communication</skill1>
+    </skills>
+  </human8>
+     <human9>
+    <name>
+        <firstName>Kewal</firstName>
+        <lastName>Kumar</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>traveling</hobby1>
+        <hobby2>cricket</hobby2>
+    </hobbies>
+
+    <<skills>
+        <skill1>Communication</skill1>
+        <skill2>Leadership</skill2>
+    </skills>
+  </human9>
+       <human10>
+    <name>
+        <firstName>Rahul</firstName>
+        <lastName>Vel</lastName>
+    </name>
+
+    <hobbies>
+        <hobby1>basketball</hobby1>
+    </hobbies>
+
+    <<skills>
+        <skill1>Motivated</skill1>
+    </skills>
+  </human10>
+</human>
+
+
