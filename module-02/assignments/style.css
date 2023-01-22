@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(15, 15, 15);
+    color: rgb(192, 76, 76);
+}
+
+/*Change font-size of `originalName` */
+
+originalName{
+    font-size: 20px;
+    display: block;
+    color: rgb(0, 255, 200);
+}
+
+/* Display each `category` on the new line*/
+category{
+    display: block;
+    color: rgb(148, 89, 35);
+
+}
+
+/* Add any other css-rule*/
+description{
+    font-size: medium;
+    font-style: italic;
+
+}
