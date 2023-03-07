@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="automotives" type="automotivesType"/>
+  <xs:complexType name="carModelType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="cid"/>
+      <xs:element type="xs:string" name="cname"/>
+      <xs:element type="xs:string" name="year"/>
+      <xs:element type="xs:string" name="usdPrice"/>
+      <xs:element type="xs:string" name="cadPrice"/>
+      <xs:element type="xs:string" name="euroPrice"/>
+      <xs:element type="xs:string" name="poundPrice"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="carModelsType">
+    <xs:sequence>
+      <xs:element type="carModelType" name="ModelDetails" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="carType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="vin"/>
+      <xs:element type="xs:string" name="color"/>
+      <xs:element type="xs:string" name="buyer"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="carsType">
+    <xs:sequence>
+      <xs:element type="carType" name="car" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="automotive-makerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="id"/>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:string" name="street"/>
+      <xs:element type="xs:string" name="city"/>
+      <xs:element name="region" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Pays de la Loire"/>
+            <xs:enumeration value="Picardie"/>
+            <xs:enumeration value="Provence-Alpes-Côte d'Azur"/>
+            <xs:enumeration value="Bourgogne"/>
+            <xs:enumeration value="Texas"/>
+            <xs:enumeration value="Nord-Pas-de-Calais"/>
+            <xs:enumeration value="Rhône-Alpes"/>
+            <xs:enumeration value="Georgia"/>
+            <xs:enumeration value="Florida"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="country">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="France"/>
+            <xs:enumeration value="United States"/>
+            <xs:enumeration value="Japan"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="carModelsType" name="carModels"/>
+      <xs:element type="carsType" name="cars"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="automotivesType">
+    <xs:sequence>
+      <xs:element type="automotive-makerType" name="automotive-maker" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
