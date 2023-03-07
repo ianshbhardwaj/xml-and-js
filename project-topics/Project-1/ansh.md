@@ -13,5 +13,6 @@ Overall, this schema provides a standard structure for representing automotive-r
 
 
 
+![image info](Screenshot%202023-03-06%20233248.png)
 
 
