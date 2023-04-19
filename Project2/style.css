@@ -1,0 +1,82 @@
+
+
+.Result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px; 
+  transition: all 0.3s ease; 
+}
+
+.Result:hover {
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+
+
+form {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 24px; /* Increase the font size to 18 pixels */
+  transition: all 0.3s ease; /* Add a transition effect */
+}
+
+
+form:hover {
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+
+
+select {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  font-size: 24px;
+}
+
+
+#distance {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  font-size: 24px; 
+}
+
+
+input[type="radio"] {
+  margin: 10px;
+  font-size: 24px; 
+}
+
+
+
+input[type="button"] {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 24px; 
+  transition: all 0.3s ease; 
+}
+
+
+input[type="button"]:hover {
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+
+
+
+#carbonx {
+  font-weight: bold;
+  color: #0066cc;
+  font-size: 24px; 
+}
